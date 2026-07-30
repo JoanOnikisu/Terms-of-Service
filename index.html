@@ -3,37 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - 『 𝙄𝙣𝙙𝙚𝙚𝙙 𝙏𝙧𝙖𝙘𝙠™ 』</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Legal & Privacy | JoanOnikisu</title>
+    <style>
+        :root {
+            --bg-color: #09090b;
+            --text-main: #a1a1aa;
+            --text-heading: #ffffff;
+            --accent: #00f2ff;
+            --card-bg: #18181b;
+            --border: #27272a;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h1, h2, h3 {
+            color: var(--text-heading);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            letter-spacing: -0.05em;
+        }
+
+        h1 span {
+            color: var(--accent);
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            font-family: monospace;
+            color: var(--accent);
+            margin-top: 1rem;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Terms of Service</h1>
-    </header>
-    <main>
-        <section>
-            <h2>1. Introduction</h2>
-            <p>Welcome to 『 𝙄𝙣𝙙𝙚𝙚𝙙 𝙏𝙧𝙖𝙘𝙠™ 』. These Terms of Service govern your use of our Discord bot and services. By using our bot, you agree to these terms.</p>
+    <div class="container">
+        <header>
+            <h1>JoanOnikisu <span>Ecosystem</span></h1>
+            <p>Unified Legal Hub for Bots, Applications, and Services</p>
+            <p class="last-updated">Last Updated: July 2026</p>
+        </header>
+
+        <section id="terms-of-service">
+            <h2>Terms of Service</h2>
+            <p>By inviting our bots to your Discord server, utilizing our software, or accessing our services, you agree to these Terms of Service. If you do not agree, please remove the bots and cease using the services immediately.</p>
+            
+            <h3>1. Acceptable Use</h3>
+            <ul>
+                <li>You may not use our services to violate any applicable laws or the Terms of Service of platforms we integrate with (e.g., Discord).</li>
+                <li>You may not exploit, attack, or deliberately disrupt the infrastructure of our services.</li>
+                <li>Abuse of our services will result in a permanent ban across the entire ecosystem.</li>
+            </ul>
+
+            <h3>2. Service Availability</h3>
+            <p>We strive for high uptime, but our services are provided "as is" and "as available" without warranties of any kind. We reserve the right to modify, suspend, or discontinue any part of the service at any time without notice.</p>
+
+            <h3>3. Limitation of Liability</h3>
+            <p>We shall not be held liable for any damages, data loss, or server disruptions resulting from the use or inability to use our services.</p>
         </section>
-        <section>
-            <h2>2. Changes to Terms</h2>
-            <p>We may update these terms from time to time. The updated version will be effective as soon as it is accessible.</p>
+
+        <section id="privacy-policy">
+            <h2>Privacy Policy</h2>
+            <p>We value your privacy. This policy outlines how we handle data across our bots and applications.</p>
+
+            <h3>1. Data We Collect</h3>
+            <p>Our applications only collect the minimum amount of data required to function properly. Depending on the service, this may include:</p>
+            <ul>
+                <li><strong>Public Identifiers:</strong> User IDs, Server/Guild IDs, and Channel IDs.</li>
+                <li><strong>Configuration Data:</strong> Settings explicitly configured by users within our applications.</li>
+                <li><strong>Command Usage:</strong> Logs of when and how commands are executed to improve performance and prevent abuse.</li>
+            </ul>
+
+            <h3>2. Data We Do NOT Collect</h3>
+            <ul>
+                <li>We do not store message content unless strictly necessary for a specific feature (and explicitly stated).</li>
+                <li>We do not sell, rent, or share your data with third parties.</li>
+            </ul>
+
+            <h3>3. Data Retention and Deletion</h3>
+            <p>Data is kept only as long as necessary to provide our services. If you wish to have your data completely removed from our systems, you can kick the bot from your server or contact the developer directly.</p>
         </section>
-        <section>
-            <h2>3. User Responsibilities</h2>
-            <p>As a user, you agree to use our bot in compliance with all applicable laws and not to engage in any harmful or abusive behavior.</p>
-        </section>
-        <section>
-            <h2>4. Intellectual Property</h2>
-            <p>All content, trademarks, and data on this site, including 『 𝙄𝙣𝙙𝙚𝙚𝙙 𝙏𝙧𝙖𝙘𝙠™ 』, are owned by or licensed to us and are protected by intellectual property laws.</p>
-        </section>
-        <section>
-            <h2>5. Contact Us</h2>
-            <p>If you have any questions about these terms, please contact us at <a href="mailto:JoanOnikisu@Outlook.com">JoanOnikisu@Outlook.com</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 『 𝙄𝙣𝙙𝙚𝙚𝙙 𝙏𝙧𝙖𝙘𝙠™ 』. All rights reserved.</p>
-    </footer>
+
+        <footer style="text-align: center; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border);">
+            <p>For questions or support, reach out via <a href="https://github.com/JoanOnikisu">GitHub</a>.</p>
+        </footer>
+    </div>
 </body>
 </html>
